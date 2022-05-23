@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>SuperHero</title>
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <a href="/" class="link">SuperHero</a>
+        </div>
+        <div class="search-container">
+            <img
+            class="search-icon"
+            src="https://cdn-icons-png.flaticon.com/512/1296/1296902.png"
+            alt="search-icon"
+          />
+        <input type="search" id="search" placeholder="Type Here to search superheroes..." autocomplete="off" />
+         </div>
+        <div class="right">
+            <a href="/favourites.html" class="link">favourites</a>
+        </div>
+    
+    </nav>  
+    
+    <main id="main">
+       
+        <div class="loader"> </div>
+            <ul id = "search-results-list">
+
+            </ul>
+       
+    </main>
+    <div id="toast"></div>
+
+    <script src="js/common.js"></script>
+    <script src="js/index.js"></script>
+
+    <script>
+        Main.init();
+    </script>
+
+</body>
+</html>
