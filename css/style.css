@@ -1,5 +1,9 @@
+
+
 * {
     font-family: 'Poppins';
+    background-size:cover;
+   /* background-position:inherit; */
 }
 
 html {
@@ -82,19 +86,6 @@ nav .right {
     top: 10px;
     left: 7px;
   }
-/* 
-#search-box {
-  width: 40%;
-    border: 1px solid hsla(0, 83%, 55%, 0.614);
-    height: 50px;
-    font-size: 17px;
-    padding: 5px 10px;
-    /* margin-left: ; */
-    /* border-radius: 25px; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* justify-items: center; */
-/* } */ */
 
 .loader {
     border: 10px solid;
